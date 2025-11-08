@@ -44,9 +44,9 @@ print_r($sonlar2);
 rsort($sonlar2);
 print_r($sonlar2);
 
-// birinchi usul 
+// Birinchi usul 
 $sonlar = array(2,5,6,5,7,4,'Test','Qiymat');
-// ikkinchi usul
+// Ikkinchi usul
 $sonlar1 = [4,7,4,7,8,9,3,5,1,6];
 
 echo $sonlar[4];
@@ -56,7 +56,7 @@ echo "\n";
 $sonlar[4] = 67;
 echo $sonlar[4];
 print_r($sonlar);
-// massivga yangi element qo'shish oxiriga
+// Massivga yangi element qo'shish oxiriga
 array_push($sonlar,115,53);
 print_r($sonlar);
 // Associative Arrays
