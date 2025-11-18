@@ -19,7 +19,6 @@ $talabalar = [
 	<table>
 		<thead>
   <tr>
-    <th>#</th>
     <th>Ism</th>
     <th>Familiya</th>
     <th>Yosh</th>
@@ -29,10 +28,10 @@ $talabalar = [
   <tbody>
 	<?php foreach($talabalar as $key => $item): ?>
 		<tr>
-			<td><?= $item['$ism'] ?></td>
-			<td><?= $item['$familiya'] ?></td>
-			<td><?= $item['$yoshi'] ?></td>
-			<td><?= $item['$bahosi'] ?></td>
+			<td><?= $item['ism'] ?></td>
+			<td><?= $item['familiya'] ?></td>
+			<td><?= $item['yoshi'] ?></td>
+			<td><?= $item['bahosi'] ?></td>
 		</tr>
 		<?php endforeach; ?> 
   </tbody>

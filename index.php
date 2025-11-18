@@ -26,6 +26,9 @@ while ($i < 6):
 endwhile; 
 
 
+include 'date_and_time.php';
+
+
 
 
 
